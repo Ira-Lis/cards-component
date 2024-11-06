@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: #fff;
+}
+body {
+  margin: 0;
+  width: 920px;
+  padding: 0;
+  background: #e28625;
+  height: 500px;
+  border-radius: 8px;
+  position: relative;
+}
+header article {
+  width: 307px;
+  height: 500px;
+  background: #e28625;
+  padding: 48px;
+}
+div {
+  width: 40px;
+  height: 40px;
+  background: hsla(0, 0%, 0%, 0.2);
+  margin-bottom: 35px;
+  border-radius: 50%;
+  padding: 11px 20px 12px 20px;
+  position: relative;
+}
+header div img {
+  height: 20px;
+  width: 43px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+main article {
+  margin: 0;
+  width: 307px;
+  height: 500px;
+  background-color: #006971;
+  padding: 48px;
+  position: absolute;
+  right: 33%;
+  top: 0;
+}
+main div img {
+  height: 24px;
+  width: 44px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+footer article {
+  margin: 0;
+  padding: 48px;
+  position: absolute;
+  top: 0;
+  left: 66%;
+  background-color: #004140;
+  position: absolute;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+footer div img {
+  height: 18px;
+  width: 44px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+h3 {
+  margin: 0;
+  width: 101px;
+  height: 48px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+p {
+  /*margin: 0;*/
+  margin-top: 0;
+  margin-bottom: 83px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  width: 212px;
+  height: 125px;
+}
+a {
+  font-family: "Lexend Deca";
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  background: #f2f2f2;
+  border-radius: 25px;
+  width: 146px;
+  height: 48px;
+  display: block;
+  padding: 11px 31px 12px 31px;
+  box-sizing: border-box;
+}
+header a {
+  color: #e28625;
+}
+main a {
+  color: #006971;
+}
+footer a {
+  color: #004140;
+}
