@@ -1,0 +1,31 @@
+@media (max-width: 920px) {
+  header article {
+    width: 327px;
+    height: 442px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  main article {
+    width: 327px;
+    height: 442px;
+    background-color: #006971;
+    padding: 48px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%) translateX(-50%);
+    left: 50%;
+  }
+  footer article {
+    width: 327px;
+    height: 442px;
+    padding: 48px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateY(200%) translateX(-50%);
+  }
+  p {
+    margin-bottom: 25px;
+  }
+}
